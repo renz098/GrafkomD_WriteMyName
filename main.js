@@ -22,7 +22,6 @@ const fsSource = `
     }
 `;
 
-// Helper untuk kompilasi shader
 function createShader(gl, type, source) {
     const shader = gl.createShader(type);
     gl.shaderSource(shader, source);
